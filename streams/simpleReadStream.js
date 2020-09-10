@@ -1,0 +1,14 @@
+//This is another way to use a require statement
+//This will auto-decompose the module and grab the export you want
+const { Readable } = require('stream');
+var str = "this is a test String";
+let simpleRead = Readable.from(str);
+
+simpleRead.on('data', (data)=>{
+    console.log(`Reading data: ${data}`);
+    
+});
+
+simpleRead.read();
+
+module.exports = simpleRead;
