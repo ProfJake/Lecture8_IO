@@ -1,4 +1,4 @@
-/*reading.js
+/*readwrite.js
 Demo file for how to read from Buffer structures
 Jake Levy
 Sept 2020

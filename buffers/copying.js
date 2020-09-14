@@ -1,3 +1,10 @@
+/*copying.js
+File for demoing how to copy in and with buffers in Node.
+APW_JS
+Jake Levy
+Sept 2020
+*/
+
 var nums = Buffer.from('0123456789');
 var blank =  Buffer.alloc(10);  //empty, size 10
 blank.fill('-'); //blank now is  ‘----------’
